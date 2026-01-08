@@ -1,0 +1,52 @@
+{
+  "CreditScore": {
+    "p_value": 2.4898661086617664e-11,
+    "statistic": 0.0501,
+    "drift_detected": true
+  },
+  "Age": {
+    "p_value": 1.3622408499108421e-14,
+    "statistic": 0.0571,
+    "drift_detected": true
+  },
+  "Tenure": {
+    "p_value": 1.0,
+    "statistic": 0.0,
+    "drift_detected": false
+  },
+  "Balance": {
+    "p_value": 1.2073707890258693e-10,
+    "statistic": 0.0485,
+    "drift_detected": true
+  },
+  "NumOfProducts": {
+    "p_value": 1.0,
+    "statistic": 0.0,
+    "drift_detected": false
+  },
+  "HasCrCard": {
+    "p_value": 1.0,
+    "statistic": 0.0,
+    "drift_detected": false
+  },
+  "IsActiveMember": {
+    "p_value": 1.0,
+    "statistic": 0.0,
+    "drift_detected": false
+  },
+  "EstimatedSalary": {
+    "p_value": 1.2073707890258693e-10,
+    "statistic": 0.0485,
+    "drift_detected": true
+  },
+  "Geography_Germany": {
+    "p_value": 1.0,
+    "statistic": 0.0,
+    "drift_detected": false
+  },
+  "Geography_Spain": {
+    "p_value": 1.0,
+    "statistic": 0.0,
+    "drift_detected": false
+  }
+}

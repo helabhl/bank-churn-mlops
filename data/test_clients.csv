@@ -1,0 +1,6 @@
+CreditScore,Age,Tenure,Balance,NumOfProducts,HasCrCard,IsActiveMember,EstimatedSalary,Geography
+619,42,2,0.00,1,1,1,101348.88,France
+608,41,1,83807.86,1,0,1,112542.58,Spain
+502,42,8,159660.80,3,1,0,113931.57,France
+699,39,1,0.00,2,0,0,93826.63,France
+850,43,2,125510.82,1,1,1,79084.10,Germany
