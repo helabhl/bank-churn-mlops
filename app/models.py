@@ -14,19 +14,19 @@ class CustomerFeatures(BaseModel):
     Geography_Germany: int = Field(..., ge=0, le=1, description="Client allemand")
     Geography_Spain: int = Field(..., ge=0, le=1, description="Client espagnol")
     
-    class Config:
-        schema_extra = {
-            "example": {
-                "CreditScore": 650,
-                "Age": 35,
-                "Tenure": 5,
-                "Balance": 50000,
-                "NumOfProducts": 2,
-                "HasCrCard": 1,
-                "IsActiveMember": 1,
-                "EstimatedSalary": 75000,
-                "Geography_Germany": 0,
-                "Geography_Spain": 1
+class Config:
+    schema_extra = {
+        "example": {
+            "CreditScore": 650,
+            "Age": 35,
+            "Tenure": 5,
+            "Balance": 50000,
+            "NumOfProducts": 2,
+            "HasCrCard": 1,
+            "IsActiveMember": 1,
+            "EstimatedSalary": 75000,
+            "Geography_Germany": 0,
+            "Geography_Spain": 1
             }
         }
 
